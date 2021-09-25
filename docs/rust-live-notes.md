@@ -23,6 +23,7 @@
   - C FFI -> zero cost.
 - Low Overhead -> Memory and file size (binary)
   - LLVM -> 200k stripped
+- Cold Start -> Minimal Cold Start
 
 4. Time to Hack!
 
@@ -30,7 +31,6 @@
 
 1. Getting trace results from the Kernel
 - Using Rust matchers to filter the results
-
 2. Exfiltrating to external systems with multi-threading.
 - Collector Thread.
 - Consumer Thread.
